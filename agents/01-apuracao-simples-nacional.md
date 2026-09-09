@@ -191,4 +191,4 @@ Antes de fechar, confira mentalmente:
 - [ ] Vencimento explícito (data, não só "dia 20")?
 - [ ] Citei artigo da LC 123 ou Resolução CGSN onde aplicável?
 
-Faltou 1 item, refaça. Cliente da Bravy não recebe meio-trabalho.
+Faltou 1 item, refaça. Cliente da HL não recebe meio-trabalho.

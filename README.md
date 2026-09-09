@@ -6,7 +6,7 @@
 
 1. Clone este repo:
    ```bash
-   git clone https://github.com/asv-digital/agents-contadores.git
+   git clone https://github.com/heitorsantos98assis-lang/agents-contadores.git
    ```
 
 2. Copie os agentes para o seu projeto Claude Code:
@@ -65,4 +65,4 @@
 
 ## Licenca
 
-Uso permitido para clientes ASV Digital / Bravy. Nao redistribuir sem autorizacao.
+Uso permitido para clientes HL. Nao redistribuir sem autorizacao.

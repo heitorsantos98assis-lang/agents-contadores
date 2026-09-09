@@ -1,6 +1,6 @@
-# 57 Agents Contabilidade — Claude Code para contadores
+# 57 Agents Contabilidade — Codex para contadores
 
-**57 subagentes especializados** para contadores brasileiros, prontos para serem usados no Claude Code. Cada agente e um especialista em uma rotina especifica do escritorio contabil — apuracoes, obrigacoes acessorias, fechamento, recuperacao de creditos, IRPF, atendimento fiscal — que atua proativamente quando o contexto da conversa bate com sua especialidade.
+**57 subagentes especializados** para contadores brasileiros, prontos para serem usados no Codex. Cada agente e um especialista em uma rotina especifica do escritorio contabil — apuracoes, obrigacoes acessorias, fechamento, recuperacao de creditos, IRPF, atendimento fiscal — que atua proativamente quando o contexto da conversa bate com sua especialidade.
 
 ## Como instalar
 
@@ -9,18 +9,18 @@
    git clone https://github.com/heitorsantos98assis-lang/agents-contadores.git
    ```
 
-2. Copie os agentes para o seu projeto Claude Code:
+2. Copie os agentes para o seu projeto Codex:
    ```bash
-   cp -r agents-contadores/agents/* /caminho/do/seu/projeto/.claude/agents/
+   cp -r agents-contadores/agents/* /caminho/do/seu/projeto.codex/agents/
    ```
 
-   Ou, para uso global: `~/.claude/agents/`.
+   Ou, para uso global: `.codex/agents/`.
 
-3. Reinicie o Claude Code (`/exit` e abra de novo). Confirme com `/agents`.
+3. Reinicie o Codex (`/exit` e abra de novo). Confirme com `/agents`.
 
 ## Como usar
 
-- **Automatico**: "preciso apurar o DAS do Simples deste mes" -> Claude delega pro agente `apuracao-simples-nacional`.
+- **Automatico**: "preciso apurar o DAS do Simples deste mes" -> Codex delega pro agente `apuracao-simples-nacional`.
 - **Manual**: "use o agente `recuperacao-creditos-pis-cofins` para analisar 5 anos retroativos do meu cliente".
 - **Em pipeline**: `revisao-fiscal-cruzamento-sped` -> identifica divergencia -> `malha-fina-pj-diagnostico` -> responde intimacao.
 
